@@ -1,0 +1,62 @@
+{
+  "name": "virtual-meet-and-code",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^1.10.2",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@monaco-editor/react": "^4.4.5",
+    "@mui/material": "^5.8.7",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "ace-builds": "^1.7.1",
+    "antd": "^4.16.0",
+    "axios": "^0.27.2",
+    "file-saver": "^2.0.5",
+    "highlight.js": "^11.0.1",
+    "jspdf": "^2.3.1",
+    "netlify-cli": "^3.35.2",
+    "quill": "^1.3.7",
+    "quill-to-pdf": "^1.0.7",
+    "react": "^17.0.2",
+    "react-ace": "^10.1.0",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.4.0",
+    "simple-peer": "^9.11.0",
+    "socket.io-client": "^4.1.2",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "SET PORT=443 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
